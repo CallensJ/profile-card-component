@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Kumbh Sans", sans-serif;
+}
+
+body {
+  background-color: hsl(185, 75%, 39%);
+  background-image: url(./images/bg-pattern-top.svg), url(images/bg-pattern-bottom.svg);
+  background-position: right 45vw bottom 45vh, 45vw 45vh;
+  background-repeat: no-repeat;
+}
+
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  overflow: hidden;
+}
+.container .card {
+  width: 375px;
+}
+.container .card .card-top {
+  height: 150px;
+}
+.container .card .card-top .background-top {
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.container .card .card-bottom {
+  background-color: #ffffff;
+  border-bottom-left-radius: 1rem;
+  border-bottom-right-radius: 1rem;
+  padding: 1rem;
+}
+.container .card .card-bottom .user-info {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+.container .card .card-bottom .user-info .rounded-full {
+  border-radius: 50%;
+  margin-top: -5rem;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  background-color: #fff;
+}
+.container .card .card-bottom .user-info .name-age {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 1.8rem;
+}
+.container .card .card-bottom .user-info .name-age .name {
+  padding-right: 1rem;
+  color: hsl(229, 23%, 23%);
+}
+.container .card .card-bottom .user-info .name-age .age {
+  color: hsl(227, 10%, 46%);
+}
+.container .card .card-bottom .user-info .city {
+  color: hsl(227, 10%, 46%);
+  font-size: 1.2rem;
+}
+.container .card .card-bottom .stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.container .card .card-bottom .stats .stats-numbers {
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 0.8rem;
+}
+.container .card .card-bottom .stats .stats-name {
+  color: hsl(227, 10%, 46%);
+  letter-spacing: 0.2rem;
+}
+.container .card .card-bottom .stats .stats-followers {
+  padding-left: 1rem;
+}
+.container .card .card-bottom .stats .stats-likes {
+  padding-left: 0.5rem;
+}/*# sourceMappingURL=styles.css.map */
